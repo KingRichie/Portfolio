@@ -1,0 +1,105 @@
+html {
+ height: 100%;
+ background-image:
+url('https://images.pexels.com/photos/218983/pexels-photo-218983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-size: cover;
+}
+
+
+#banner {
+ padding-top: 22%;
+ font-family: 'Dancing script', cursive;
+ font-size: 35px;
+ display: flex;
+ justify-content: center;
+ color: white;
+ 
+}
+
+
+#heading {
+  height: 100%;
+  font-family: "Dancing Script";
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #ff0000;
+  font-family: 'Dancing Script';
+}
+
+.navbar a:hover {
+  color: white;
+  background: #9370DB;
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+
+#about-content {
+     display:flex;
+     justify-content: space-around;
+     margin-top: 22%;
+    }
+    
+img {
+  border-radius: 50%;
+  border: solid 5px #F0CD59;
+}
+
+.my-description {
+ background: white;
+ margin: 3%;
+ padding: 4%;
+ font-family: 'Dancing Script';
+}
+.project-container {
+ margin-top: 20%;
+ display: flex;
+ width: 100%;
+ height: 100%;
+ justify-content: space between;
+ }
+ 
+ span { 
+  background: #9370DB;
+  width: 30%;
+  height: 60%;
+  margin: 2%;
+  padding: 2%;
+  font-family:'Dancing Script';
+  color: White;
+  align-items
+}
+.feature-content {
+  margin-top: 22%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
